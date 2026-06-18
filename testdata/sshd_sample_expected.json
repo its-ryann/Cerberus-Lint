@@ -1,0 +1,37 @@
+[
+  {
+    "event_type": "failed_auth",
+    "source_ip": "192.168.1.100",
+    "username": "root"
+  },
+  {
+    "event_type": "failed_auth",
+    "source_ip": "192.168.1.100",
+    "username": "root"
+  },
+  {
+    "event_type": "failed_auth",
+    "source_ip": "10.0.0.50",
+    "username": "admin"
+  },
+  {
+    "event_type": "successful_auth",
+    "source_ip": "192.168.1.10",
+    "username": "user1"
+  },
+  {
+    "event_type": "connection_closed",
+    "source_ip": "192.168.1.100",
+    "username": ""
+  },
+  {
+    "event_type": "failed_auth",
+    "source_ip": "2001:db8::1",
+    "username": "test"
+  },
+  {
+    "event_type": "failed_auth",
+    "source_ip": "192.168.1.100",
+    "username": "admin"
+  }
+]

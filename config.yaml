@@ -1,0 +1,12 @@
+log_format: sshd
+window_seconds: 30
+
+rules:
+  - name: brute_force
+    threshold_count: 10
+    severity: high
+    event_type: brute_force_login
+
+sinks:
+  - type: stdout
+    enabled: true
